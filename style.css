@@ -1,4 +1,25 @@
-h3{
-    color: #fff;
-    background-color: blue;
+
+.container-produtos {
+    padding: 20px;
+    font-size: 50px;
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    border-color:#fff;
+    color: rgb(106, 106, 194); 
+}
+
+.card .card-title{
+    color: rgb(10, 10, 126);
+}
+
+.card-3{
+    width: 50%;
+}
+
+
+
