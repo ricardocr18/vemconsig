@@ -1,6 +1,6 @@
 
 body{
-    font-size: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -29,8 +29,9 @@ header, .navbar{
 }
 
 #logo {
-    width: 200px;
-    padding: 10px;
+    width: 75px;
+    /*width: 200px;
+    padding: 10px; */
 }
 
 .nav-brand{
@@ -46,7 +47,7 @@ header, .navbar{
     color: #fff;
 }
 
->.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem ;
 }
 
@@ -56,8 +57,9 @@ header, .navbar{
     padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 90vh;
+.carousel-item img{
+    height: 100vh;
+    width: auto;
 }
 
 #mainSlider .carousel-caption {
@@ -96,7 +98,7 @@ header, .navbar{
     border-color: #65daf9;
 }
 
-/* Infor,ações sobre a empresa */
+/* Informações sobre a empresa */
 #about-area{
     background-color: #f7f7f7;
 }
@@ -123,6 +125,7 @@ header, .navbar{
     color: #444;
     text-transform: uppercase; /*Transforma o texto tod em cixa alta */
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #about-list{
@@ -167,8 +170,6 @@ header, .navbar{
 
 /* Bancos que trabalhamos */
 
-
-
 .card img{    
     width: 150px;
 }
@@ -176,6 +177,14 @@ header, .navbar{
 .card {
     border: #fff;
 }
+
+/* Formulário */
+
+#about-form{
+    background-color: #f7f7f7;
+}
+
+
 
 
 
