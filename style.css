@@ -19,8 +19,10 @@ p, li{
 }
 
 /* Barra de Navegação */
-header, .navbar{
-    background-color: #353041;
+
+
+.navbar {
+    background-color: #215297;
 }
 
 #nav-container {
@@ -28,10 +30,20 @@ header, .navbar{
     padding-bottom: 0;
 }
 
-#logo {
-    width: 75px;
-    /*width: 200px;
-    padding: 10px; */
+.logo {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.nav-item{
+    padding-top: 18px;
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    
 }
 
 .nav-brand{
@@ -68,12 +80,13 @@ header, .navbar{
 
 #mainSlider .carousel-caption h2 {
     font-size: 50px;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
 #mainSlider .carousel-caption p {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 100px;
     color: #fff;
 }
@@ -100,7 +113,7 @@ header, .navbar{
 
 /* Informações sobre a empresa */
 #about-area{
-    background-color: #f7f7f7;
+    background-color: #e8e6e6;
 }
 
 .main-title{
@@ -181,7 +194,11 @@ header, .navbar{
 /* Formulário */
 
 #about-form{
-    background-color: #f7f7f7;
+    background-color: #e8e6e6; /* urilizava a cor #f7f7f7 */
+}
+
+#nav-form{
+    background-color: #215297;
 }
 
 
@@ -205,29 +222,3 @@ header, .navbar{
 
 
 
-
-/*
-.container-produtos {
-    padding: 20px;
-    font-size: 50px;
-}
-
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    border-color:#fff;
-    color: rgb(106, 106, 194); 
-}
-
-.card .card-title{
-    color: rgb(10, 10, 126);
-}
-
-.card-3{
-    width: 50%;
-}
-
-
-*/
