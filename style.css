@@ -40,6 +40,13 @@ p, li{
     padding-left: 25px;
 }
 
+.fab {
+    padding-top: 20px;
+   
+    font-size: 20px;
+    color: chartreuse;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 16px;
@@ -155,7 +162,7 @@ p, li{
     margin-right: 15px;
 }
 
-/* Serviços */
+/* Serviço da Empresa*/
 
 .service-box {
     text-align: center;
@@ -197,28 +204,32 @@ p, li{
     background-color: #e8e6e6; /* urilizava a cor #f7f7f7 */
 }
 
-#nav-form{
+/* Footer */
+#nav-footer{
     background-color: #215297;
 }
+.card-footer{
+    background-color: #215297;
+    text-align: center;
+}
 
+.card-footer .logo {
+    width: 200px;
+    
+}
 
+.card-footer h6{
+    font-weight: bold;
+    color: #fff;
+}
 
+.card-footer a{
+    color: #fff;
+    
+}
+.amor i{
+    color: #ffff;
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
