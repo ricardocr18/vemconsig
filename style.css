@@ -38,11 +38,18 @@ p, li{
 .nav-item{
     padding-top: 18px;
     padding-left: 25px;
+  
+}
+
+.nav-item img{
+    width: 15px;
+    left: 15px;
+    padding-top: 18px;
+    
+       
 }
 
 .fab {
-    padding-top: 20px;
-   
     font-size: 20px;
     color: chartreuse;
 }
@@ -77,12 +84,12 @@ p, li{
 }
 
 .carousel-item img{
-    height: 100vh;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 #mainSlider .carousel-caption {
-    top: 30%;
+    top: 20%;
 }
 
 #mainSlider .carousel-caption h2 {
@@ -130,15 +137,15 @@ p, li{
     text-align: center;
 }
 
+/* Subilinhar os textos
 .main-title::after{
     content: "";
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
     top: 60px;
-    left: 42.5%;
-    
-}
+    left: 42.5%; 
+}*/
 
 .about-title {
     font-size: 17px;
@@ -227,9 +234,29 @@ p, li{
     color: #fff;
     
 }
-.amor i{
+.social i{
     color: #ffff;
-    
+    padding: 10px;
+}
 
+.about2-area {
+    margin-top: 300px;
+}
+
+@media  only screen and (max-width:480px){
+
+    .carousel-item img {
+        height: 100vh;
+        width: auto;
+    }
+
+    .nav-item{
+        padding-top: 5px;
+        padding-left: 5px;      
+        
+    }
+    .about-title{
+        margin-top: 15px;
+    }
 }
 
