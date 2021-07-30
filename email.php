@@ -5,7 +5,7 @@ $cpf = addcslashes($_POST['cpf']);
 $celular = addcslashes($_POST['celular']);
 $concorda = addcslashes($_POST['concorda']);
 
-$to = "vandessa@vemconsig.com.br";
+$to = "ricardocribeiro@hotmail.com";
 $subject = "Cliente - Site VEMCONSIG";
 $body = "Nome: ".$nome. "\n".
         "CPF: ".$cpf. "\n".
