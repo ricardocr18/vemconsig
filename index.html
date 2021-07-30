@@ -185,25 +185,25 @@
               </div>
               <div class="col-md-6">
 
-                <form class="row g-3">
+                <form class="row g-3" action="email.php" method="POST">
                   <h5>Envie seus dados para analise. Nossos consultores entraram em contato com você.</h5>
                   <div class="col-md-12">
                     <label for="validationDefault01" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="validationDefault01" value="" required>
+                    <input type="text" class="form-control" id="validationDefault01" name="name" value="" required>
                   </div>
                   <div class="col-md-6">
                     <label for="validationDefault02" class="form-label">CPF</label>
-                    <input type="text" class="form-control" id="validationDefault02" value="" required>
+                    <input type="text" class="form-control" id="validationDefault02" name="cpf" value="" required>
                   </div>
 
                   <div class="col-md-6">
                     <label for="validationDefault03" class="form-label">Celular</label>
-                    <input type="text" class="form-control" id="validationDefault03" required>
+                    <input type="text" class="form-control" id="validationDefault03" name="celular" required>
                   </div>
 
                   <div class="col-12">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                      <input class="form-check-input" type="checkbox" name="concorda" value="" id="invalidCheck2" required>
                       <label class="form-check-label" for="invalidCheck2">
                         Concordo em enviar meus dados para analise
                       </label>
