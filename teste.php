@@ -11,16 +11,16 @@ if (isset($_POST['enviarFormulario'])){
 /*** INÍCIO - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
 
 
-$enviaFormularioParaNome = 'Vandessa';
+$enviaFormularioParaNome = 'Nome do destinatário que receberá formulário';
 
-$enviaFormularioParaEmail = 'vandessa@vemconsig.com.br';
+$enviaFormularioParaEmail = 'email-do-destinatario@dominio';
 
 
 $caixaPostalServidorNome = 'WebSite | Formulário';
 
-$caixaPostalServidorEmail = 'suporte@vemconsig.com.br';
+$caixaPostalServidorEmail = 'usuario@seudominio.com.br';
 
-$caixaPostalServidorSenha = 'salvador@21';
+$caixaPostalServidorSenha = 'senha';
 
 
 /*** FIM - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
@@ -29,11 +29,11 @@ $caixaPostalServidorSenha = 'salvador@21';
 /* abaixo as variaveis principais, que devem conter em seu formulario*/
 
 
-$remetenteNome  = $_POST['Nome'];
+$remetenteNome  = $_POST['remetenteNome'];
 
-$remetenteEmail = $_POST['cpf'];
+$remetenteEmail = $_POST['remetenteEmail'];
 
-$assunto  = $_POST['celular'];
+$assunto  = $_POST['assunto'];
 
 $mensagem = $_POST['mensagem'];
 
