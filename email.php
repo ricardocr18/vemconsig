@@ -6,6 +6,7 @@ $nome = addcslashes($_POST['nome']);
 $cpf = addcslashes($_POST['cpf']);
 $celular = addcslashes($_POST['celular']);
 $concorda = addcslashes($_POST['concorda']);
+$email = 'atendimento@vemconsig.com.br';
 
 $to = "ricardocribeiro@hotmail.com";
 $subject = "Cliente - Site VEMCONSIG";
@@ -14,7 +15,7 @@ $body = "Nome: ".$nome. "\n".
         "Celular: ".$celular. "\n".
         "Concorda: ".$concorda. "\n";
 $header = "From: atendimento@vemconsig.com.br"."\r\n".
-            "Reply-To:atendimento@vemconsig.com.br"."\r\n".
+            "Reply-To:".$email."\r\n".
             "X=Mailer:PHP/".phpversion();
 
 if (mail($to,$subject,$body,$header)){
