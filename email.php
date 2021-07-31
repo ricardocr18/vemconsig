@@ -1,6 +1,8 @@
 <?php
 
-$nome = addcslashes($_POST['name']);
+if (isset($_POST['cpf']) && !empty($_POST['cpf'])){
+
+$nome = addcslashes($_POST['nome']);
 $cpf = addcslashes($_POST['cpf']);
 $celular = addcslashes($_POST['celular']);
 $concorda = addcslashes($_POST['concorda']);
@@ -19,6 +21,8 @@ if (mail($to,$subject,$body,$header)){
     echo("Email enviado com sucesso");
 }else{
     echo("O Email não pode ser enviado");
+}
+
 }
 
 ?>
