@@ -12,7 +12,7 @@ $mail->SMTPAuth  = true;
 
 $mail->Charset   = 'utf8_decode()';
 
-$mail->Host  = 'smtp.smtps.uhserver.com';
+$mail->Host  = 'smtps.uhserver.com';
 
 $mail->Port  = '465';
 
