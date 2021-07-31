@@ -35,7 +35,7 @@ $remetenteEmail = $_POST['cpf'];
 
 $assunto  = $_POST['celular'];
 
-$mensagem = $_POST['mensagem'];
+/* $mensagem = $_POST['mensagem']; */
 
 
 $mensagemConcatenada = 'Formulário gerado via website'.'<br/>';
@@ -50,7 +50,7 @@ $mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
 
 $mensagemConcatenada .= '-------------------------------<br/><br/>';
 
-$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
+/* $mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>'; */
 
 /*********************************** A PARTIR DAQUI NAO ALTERAR ************************************/
 
@@ -104,46 +104,3 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
 ?>
 
 
-<html lang="pt-BR">
-
-
-<head>
-
-    <meta charset="utf-8">
-
-<title>Formulário Exemplo Autenticado</title>
-
-</head>
-
-<body>
-
-
-<?php
-
-if(isset($mensagemRetorno)){
-
-echo $mensagemRetorno;
-
-}
-
-
-?>
-
-<form method="POST" action="" style="width:300px;">
-
-<input type="text" name="remetenteNome" placeholder="Nome completo" style="float:left;margin:10px;">
-
-<input type="text" name="remetenteEmail" placeholder="Email" style="float:left;margin:10px;">
-
-<input type="text" name="assunto" placeholder="Assunto" style="float:left;margin:10px;">
-
-<textarea name="mensagem" placeholder="Mensagem" style="float:left;margin:10px;height:100px;width:200px;"></textarea>
-
-<input type="submit" value="enviar" name="enviarFormulario" style="float:left;margin:10px;">
-
-</form>
-
-
-</body>
-
-</html>
