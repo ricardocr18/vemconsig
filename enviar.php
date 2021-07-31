@@ -18,7 +18,7 @@ $mail->Port  = '465';
 
 $mail->Username  = 'atendimento@vemconsig.com.br';
 
-$mail->Password  = 'vemconsig2021';
+$mail->Password  = '@@@';
 
 $mail->From  = 'atendimento@vemconsig.com.br';
 

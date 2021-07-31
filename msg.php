@@ -1,10 +1,11 @@
 <?php
 
-$remetenteNome = $_POST['nome'];
-$remetenteCpf = $_POST['cpf'];
-$celular = $_POST['celular'];
+$corpo =
+ "Nome:".$_POST['nome'].
+ "CPF:".$_POST['cpf'].
+ "Celular:".$_POST['celular']."";
 
-
-$caixaPostalServidorEmail = 'ateni'
+mail('ricardocribeiro@hotmail.com',$corpo,'vandessa@vemconsig.com.br');
+echo "Email enviado";
 
 ?>
