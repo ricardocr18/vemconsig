@@ -29,7 +29,7 @@ $caixaPostalServidorSenha = 'salvador@21';
 /* abaixo as variaveis principais, que devem conter em seu formulario*/
 
 
-$remetenteNome  = $_POST['Nome'];
+$remetenteNome  = $_POST['nome'];
 
 $remetenteEmail = $_POST['cpf'];
 
@@ -102,5 +102,61 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
 }
 
 ?>
+
+
+
+<!-- Mensagem de envio -->
+<html lang="pt-BR">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <link href="./style.css" rel="stylesheet">
+
+<title>Dados enviados com Sucesso</title>
+
+</head>
+
+<body>
+
+<h4>Dados enviados com Sucesso</h4>
+
+
+<!--Footer -->
+<div id="nav-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-footer">
+            <img src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
+            <div class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-footer">
+            <h6>Para você</h6>
+            <a class="nav-link" href="#about-form">Simulação de Crédito</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-footer">
+            <h6>Institucional</h6>
+            <a class="nav-link" href="contato.html">Contatos</a>
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+
 
 
