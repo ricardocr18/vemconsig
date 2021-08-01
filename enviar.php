@@ -13,7 +13,7 @@ if (isset($_POST['enviarFormulario'])){
 
 $enviaFormularioParaNome = 'Vandessa';
 
-$enviaFormularioParaEmail = 'vandessa@vemconsig.com.br';
+$enviaFormularioParaEmail = 'ricardocribeiro@hotmail.com';
 
 
 $caixaPostalServidorNome = 'WebSite | Formulário';
