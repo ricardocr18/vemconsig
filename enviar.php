@@ -44,9 +44,9 @@ $mensagemConcatenada .= '-------------------------------<br/><br/>';
 
 $mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>';
 
-$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>';
+$mensagemConcatenada .= 'cpf: '.$remetenteEmail.'<br/>';
 
-$mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
+$mensagemConcatenada .= 'Celular: '.$assunto.'<br/>';
 
 $mensagemConcatenada .= '-------------------------------<br/><br/>';
 
@@ -81,7 +81,7 @@ $mail->FromName  = utf8_decode($caixaPostalServidorNome);
 
 $mail->IsHTML(true);
 
-$mail->Subject  = utf8_decode($assunto);
+$mail->Subject  = utf8_decode($remetenteNome);
 
 $mail->Body  = utf8_decode($mensagemConcatenada);
 
@@ -111,16 +111,59 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
 
 <head>
 
-    <meta charset="utf-8">
-    <link href="./style.css" rel="stylesheet">
-
-<title>Dados enviados com Sucesso</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
+  <title>Dados enviados com Sucesso</title>
 
 </head>
 
 <body>
 
-<h4>Dados enviados com Sucesso</h4>
+<main>
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+      <div class="container-fluid">
+        <img src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-form">Simulação de Crédito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/5527999936615?text=Bem Vindo a VEMCONSIG">(27) 99993-6615
+                  <i class="fab fa-whatsapp"></i>
+              </a>
+          </li>       
+          </ul>
+        </div>
+      </div>
+    </nav>
+</main>
+
+
+<h4>Dados enviados com Sucesso<br> Em breve Estaremos retornando o Contato.<br> Obrigado por escolher a VEMCONSIG</h4>
 
 
 <!--Footer -->
@@ -152,6 +195,13 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
       </div>
     </div>
   </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
 
 </body>
 
