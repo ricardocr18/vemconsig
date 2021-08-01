@@ -243,6 +243,16 @@ p, li{
     margin-top: 300px;
 }
 
+.chat {
+    margin-top: 20px;
+}
+
+.chat button{
+    background-color:rgb(27, 102, 5)
+}
+
+/* Configuração para Celulares */
+
 @media  only screen and (max-width:480px){
 
     .carousel-item img {

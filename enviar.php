@@ -131,7 +131,9 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
 <main>
     <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
       <div class="container-fluid">
-        <img src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
+        <a href="index.html">
+            <img  src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -143,7 +145,7 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
               <a class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-form">Simulação de Crédito</a>
+              <a class="nav-link" href="index.html#about-form">Simulação de Crédito</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contato.html">Contatos</a>
@@ -152,7 +154,7 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
               <a class="nav-link" href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://wa.me/5527999936615?text=Bem Vindo a VEMCONSIG">(27) 99993-6615
+              <a class="nav-link" target="_blank" href="https://wa.me/5527999936615?text=Bem Vindo a VEMCONSIG">(27) 99993-6615
                   <i class="fab fa-whatsapp"></i>
               </a>
           </li>       
@@ -163,7 +165,15 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
 </main>
 
 
-<h4>Dados enviados com Sucesso<br> Em breve Estaremos retornando o Contato.<br> Obrigado por escolher a VEMCONSIG</h4>
+<div class="services-area">
+    <div class="container">
+        <div class="row ">
+            <div class="col-12">
+                <h3 class="main-title">Dados enviados com Sucesso<br> Em breve Estaremos retornando o Contato.<br> Obrigado por escolher a VEMCONSIG​</h3>
+            </div>
+                
+         </div>
+</div>
 
 
 <!--Footer -->
@@ -172,11 +182,19 @@ $mensagemRetorno = 'Formulário enviado com sucesso!';
       <div class="row">
         <div class="col-md-4">
           <div class="card-footer">
-            <img src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
-            <div class="social">
+            <a href="index.html">
+              <img  src="./img/logo Completa se fundo2.png" class="logo" alt="Logo da Empresa VEMCONSIG">
+            </a>
+            <div class="chat">
+              <h6>Precisando de ajuda?</h6>
+              <a target="_blank" href="https://wa.me/5527999936615?text=Bem Vindo a VEMCONSIG">
+              <button class="btn btn-primary">Chat online</button>
+              </a>
+            </div>
+            <!-- <div class="social">
               <i class="fab fa-facebook"></i>
               <i class="fab fa-instagram-square"></i>
-            </div>
+            </div>-->
           </div>
         </div>
         <div class="col-md-4">
